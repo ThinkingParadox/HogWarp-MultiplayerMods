@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyName>Assembly-Plugin</AssemblyName>
+		<BaseOutputPath>..\bin</BaseOutputPath>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="HogWarp.Lib">
+      <HintPath>..\..\..\..\Downloads\HogWarpLib-master\HogWarpLib-master\bin\Debug\net7.0\HogWarp.Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="HogWarp.Loader">
+      <HintPath>..\..\..\..\Downloads\HogWarpLib-master\HogWarpLib-master\bin\Debug\net7.0\HogWarp.Loader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
